@@ -215,6 +215,14 @@ ARG = {
 	religion_definition = catholic
 }
 
+MRE = {
+	color = map_morean
+	color2 = rgb { 113 150 11 } #same in eu4
+	
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
 KNI = {
 	color = rgb { 106  127  183 }
 	

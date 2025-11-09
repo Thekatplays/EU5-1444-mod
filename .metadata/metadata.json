@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Old Times Sake - 1444 Mod",
+	"id":	"OTS.1444",
+	"version":	"0.1",
+	"supported_game_version":	"1.0.1",
+	"short_description":	"1444 mod innit",
+	"tags":	["Characters", "Diplomacy", "Events", "Fixes", "Flags", "Gameplay", "Historical", "Map"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

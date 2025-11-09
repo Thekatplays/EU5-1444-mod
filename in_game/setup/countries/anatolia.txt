@@ -137,7 +137,7 @@ KAR = {
 }
 
 RAM = {
-	color = map_ramazan
+	color = map_ramazanids
 	color2 = rgb { 130 0 0 } #same as in EU4
 
 	culture_definition = turkish_culture

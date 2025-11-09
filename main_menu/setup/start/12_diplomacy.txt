@@ -209,21 +209,31 @@ diplomacy_manager = {
     scripted_mutual = { first = RAV second = CES type = alliance }
     scripted_mutual = { first = RIM second = CES type = alliance }
 
+    dependency = { first = PAP second = FRM subject_type = vassal }
+    dependency = { first = PAP second = RIM subject_type = vassal }
+    dependency = { first = PAP second = CMR subject_type = vassal }
+    dependency = { first = PAP second = PEA subject_type = vassal }
+    dependency = { first = PAP second = CDC subject_type = vassal }
+    dependency = { first = PAP second = CES subject_type = vassal }
+    dependency = { first = PAP second = BLG subject_type = vassal }
+    dependency = { first = PAP second = IMO subject_type = vassal }
+    dependency = { first = PAP second = URB subject_type = vassal }
+    dependency = { first = PAP second = ANC subject_type = vassal }
+    dependency = { first = PAP second = MTA subject_type = vassal }
+    dependency = { first = PAP second = ASC subject_type = vassal }
     dependency = { first = PAP second = FAE subject_type = vassal }
 
-    dependency = { first = SAV second = CEV subject_type = vassal }
-    dependency = { first = SAV second = AOS subject_type = fiefdom }
+    dependency = { first = FLO second = SSP subject_type = vassal }
+
     dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
-    dependency = { first = SAV second = PIE subject_type = appanage }
-    dependency = { first = SAV second = VUD subject_type = appanage }
 
     dependency = { first = VER second = PAD subject_type = vassal }
     dependency = { first = VER second = PAR subject_type = vassal }
     dependency = { first = VER second = LUC subject_type = vassal }
 
-    dependency = { first = SIC second = ATH subject_type = vassal }
-    dependency = { first = SIC second = NEO subject_type = vassal }
-    dependency = { first = SIC second = SAO subject_type = vassal }
+    #dependency = { first = SIC second = ATH subject_type = vassal }
+    #dependency = { first = SIC second = NEO subject_type = vassal }
+    #dependency = { first = SIC second = SAO subject_type = vassal }
 
     scripted_oneway = { first = PAP second = SIC type = guarantee }
     scripted_oneway = { first = ARA second = SIC type = guarantee }
@@ -273,7 +283,9 @@ diplomacy_manager = {
     scripted_oneway = { first = FLA second = HOL type = trade_access }
 
     #------Byzantium--------
-    dependency = { first = BYZ second = EPI subject_type = vassal }
+    #dependency = { first = BYZ second = EPI subject_type = vassal }
+    dependency = { first = BYZ second = MRE subject_type = vassal }
+    dependency = { first = BYZ second = ATH subject_type = vassal }
 
     #-------Low Lands-------
     dependency = { first = HOL second = ZEE subject_type = fiefdom }
@@ -335,12 +347,13 @@ diplomacy_manager = {
     scripted_oneway = { first = HUN second = HAB type = embargo_nation }
     scripted_oneway = { first = POL second = HAB type = embargo_nation }
     scripted_oneway = { first = BOH second = HAB type = embargo_nation }
-    dependency = { first = NAP second = ALB subject_type = vassal }
-    dependency = { first = ALB second = ANT subject_type = vassal }
-    dependency = { first = ALB second = MTR subject_type = vassal }
-    dependency = { first = ALB second = MZK subject_type = vassal }
-    dependency = { first = ALB second = THP subject_type = vassal }
-    dependency = { first = HUN second = BOS subject_type = vassal }
+    dependency = { first = TUR second = WAL subject_type = tributary }
+    #dependency = { first = NAP second = ALB subject_type = vassal }
+    #dependency = { first = ALB second = ANT subject_type = vassal }
+    #dependency = { first = ALB second = MTR subject_type = vassal }
+    #dependency = { first = ALB second = MZK subject_type = vassal }
+    #dependency = { first = ALB second = THP subject_type = vassal }
+    #dependency = { first = HUN second = BOS subject_type = vassal }
 
     #Anatolia
     dependency = { first = AYD second = INA subject_type = vassal }
@@ -372,8 +385,9 @@ diplomacy_manager = {
     dependency = { first = JAL second = SUT subject_type = vassal }
     dependency = { first = JAL second = SYY subject_type = vassal }
     dependency = { first = JAL second = ZBR subject_type = vassal }
-    dependency = { first = MAM second = DUL subject_type = vassal }
+    #dependency = { first = MAM second = DUL subject_type = vassal } i dont think this counts by 1444
     dependency = { first = MAM second = KIL subject_type = vassal }
+    dependency = { first = MAM second = RAM subject_type = vassal }
     dependency = { first = MEN second = TVS subject_type = vassal }
     dependency = { first = SUT second = BHT subject_type = vassal }
     dependency = { first = SUT second = BIN subject_type = vassal }
