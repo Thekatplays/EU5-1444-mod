@@ -11884,13 +11884,14 @@ character_db={
 	}
 
 	# Bastard Brother of the King of Portugal
-	por_pedro_barcelos = { # Bastard
+	por_pedro_barcelos = { # Bastard https://en.wikipedia.org/wiki/Pedro_Afonso,_Count_of_Barcelos
 		first_name = { name = name_peter }
 		culture = portuguese
 		religion = catholic
 		estate = nobles_estate
 		adm = 62 dip = 30 mil = 57
 		birth_date = 1287.1.1
+		death_date = 1354.01.01
 		birth = lamego
 		father = por_dinis_i_portugal
 		artist = writer
@@ -11931,11 +11932,11 @@ character_db={
 		culture = portuguese
 		religion = catholic
 		estate = nobles_estate
-		adm = 70 dip = 45 mil = 80
 		birth = lisbon
 		father = por_dinis_i_portugal
 		mother = por_isabel_arago
 		birth_date = 1291.2.8
+		death_date = 1357.05.28
 		dynasty = burgundy_portuguese_dynasty
 		tag = POR
 		ruler_trait = embezzler
@@ -11944,41 +11945,44 @@ character_db={
 	# Son & Heir of the King of Portugal
 	por_pedro_i_portugal = {	
 		first_name = { name = name_peter }
+		nickname = { name = Cruel }
 		culture = portuguese
 		religion = catholic
 		estate = nobles_estate
-		adm = 47 dip = 36 mil = 34
 		birth_date = 1320.4.8
+		death_date = 1367.01.18
 		birth = coimbra
 		father = por_afonso_iv_portugal
 		mother = por_beatriz_portugal
 		dynasty = burgundy_portuguese_dynasty
 		tag = POR
+		ruler_trait = Cruel
 	}
 
-	por_eleanor_portugal = {	
+	ara_eleanor_portugal = {	
 		first_name = { name = name_eleanor }
 		culture = portuguese
 		religion = catholic
 		estate = nobles_estate
 		female = yes
 		birth_date = 1329.2.3
+		death_date = 1348.10.30
 		birth = lisbon # Portugal
 		father = por_afonso_iv_portugal
 		mother = por_beatriz_portugal
 		dynasty = burgundy_portuguese_dynasty
-		tag = POR
+		tag = ARA
 	}
 	
 	# Queen Consort of Castile & Daughter of the King of Portugal
-	cas_maria_portugal = {	
+	cas_maria_portugal = {	#https://en.wikipedia.org/wiki/Maria_of_Portugal,_Queen_of_Castile
 		first_name = { name = name_mary }
 		culture = portuguese
 		religion = catholic
 		estate = nobles_estate
-		adm = 40 dip = 50 mil = 20
 		female = yes
 		birth_date = 1313.2.9
+		death_date = 1357.01.18
 		birth = lisbon # Unknown in Portugal
 		father = por_afonso_iv_portugal
 		mother = por_beatriz_portugal
@@ -11987,12 +11991,11 @@ character_db={
 		tag = CAS
 	}
 
-	fla_fernando_portugal = {	
+	fla_fernando_portugal = {	#
 		first_name = { name = name_ferdinand }
 		culture = portuguese
 		religion = catholic
 		estate = nobles_estate
-		adm = 52 dip = 41 mil = 38
 		birth_date = 1188.3.24
 		death_date = 1223.7.27
 		birth = coimbra
@@ -12002,6 +12005,565 @@ character_db={
 		tag = FLA
 		ruler_trait = lawgiver
 	}
+
+	por_ferdinand_i_portugal = { #https://en.wikipedia.org/wiki/Ferdinand_I_of_Portugal
+		first_name = { name = name_ferdinand }
+		nickname = { name = the_handsome }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1345.10.31
+		death_date = 1383.10.22
+		birth = coimbra
+		father = por_pedro_i_portugal
+		#mother = Constance Manuel
+		dynasty = burgundy_portuguese_dynasty
+		tag = POR
+	}
+
+	por_beatrice_of_alburquerque_portugal = { #https://en.wikipedia.org/wiki/Beatrice_of_Portugal,_Countess_of_Alburquerque
+		first_name = { name = name_beatrix }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1354.01.01
+		death_date = 1381.07.05
+		female = yes
+		birth = coimbra
+		father = por_pedro_i_portugal
+		#mother = ines de castro
+		spouse = cas_sancho_alfonso_alburquerque
+		dynasty = burgundy_portuguese_dynasty
+		tag = POR
+	}
+
+	por_beatrice_of_burgundy_portugal = { #https://en.wikipedia.org/wiki/Beatrice_of_Portugal
+		first_name = { name = name_beatrix }
+		culture = portuguese
+		religion = catholic
+		female = yes
+		estate = nobles_estate
+		birth_date = 1373.02.07
+		death_date = 1420.01.01
+		birth = coimbra
+		father = por_ferdinand_i_portugal
+		#mother = Leonor Teles
+		dynasty = burgundy_portuguese_dynasty
+		tag = CAS
+	}
+
+		# Avis and Braganca dynastys of Portugal
+
+	por_john_i_portugal = { #https://en.wikipedia.org/wiki/John_I_of_Portugal
+		first_name = { name = name_john }
+		nickname = { name = the_good }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1357.04.11
+		death_date = 1433.08.14
+		birth = lisbon
+		father = por_pedro_i_portugal
+		#mother = Teresa Lourenco
+		dynasty = avis_dynasty
+		tag = POR
+		timed_modifier = {
+			modifier = "bastard"
+			start_date = 1287.1.1
+			date = 9999.1.1
+			size = 1
+		}
+		ruler_trait = just
+	}
+
+	#John Children
+
+	por_edward_i_portugal = { #https://en.wikipedia.org/wiki/Edward,_King_of_Portugal
+		first_name = { name = name_edward }
+		nickname = { name = the_philosopher }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1391.10.31
+		death_date = 1438.09.09
+		birth = viseu
+		father = por_john_i_portugal
+		#mother = Philippa of Lancaster https://en.wikipedia.org/wiki/Philippa_of_Lancaster
+		spouse = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = POR
+		ruler_trait = free_thinker
+	}
+
+	por_peter_of_coimbra_i_portugal = { #https://en.wikipedia.org/wiki/Peter,_Duke_of_Coimbra
+		first_name = { name = name_peter }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1392.12.09
+		adm = 72 dip = 42 mil = 53
+		birth = lisbon
+		father = por_john_i_portugal
+		#mother = Philippa of Lancaster https://en.wikipedia.org/wiki/Philippa_of_Lancaster
+		spouse = por_isabella_of_coimbra_urgell
+		dynasty = avis_dynasty
+		tag = POR
+		ruler_trait = well_connected
+		ruler_trait = scholar
+		ruler_trait = loose_lips
+	}
+
+	por_henry_the_navigator_portugal = { #https://en.wikipedia.org/wiki/Prince_Henry_the_Navigator
+		first_name = { name = name_henry }
+		culture = portuguese
+		religion = catholic
+		estate = burghers_estate
+		birth_date = 1394.04.04
+		adm = 62 dip = 82 mil = 53
+		birth = porto
+		father = por_john_i_portugal
+		#mother = Philippa of Lancaster https://en.wikipedia.org/wiki/Philippa_of_Lancaster
+		dynasty = avis_dynasty
+		tag = POR
+		explorer_trait = navigator
+	}
+
+	por_isabella_of_avis_bur_portugal = { #https://en.wikipedia.org/wiki/Isabella_of_Portugal,_Duchess_of_Burgundy
+		first_name = { name = name_elizabeth }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1397.02.21
+		adm = 82 dip = 62 mil = 34
+		birth = evora
+		father = por_john_i_portugal
+		#mother = Philippa of Lancaster https://en.wikipedia.org/wiki/Philippa_of_Lancaster
+		dynasty = avis_dynasty
+		tag = BUR
+	}
+
+	por_john_of_avis_portugal = { #https://en.wikipedia.org/wiki/John,_Constable_of_Portugal
+		first_name = { name = name_john }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1400.01.13
+		death_date = 1442.08.18
+		birth = santarem
+		father = por_john_i_portugal
+		#mother = Philippa of Lancaster https://en.wikipedia.org/wiki/Philippa_of_Lancaster
+		spouse = por_isabel_braganca_portugal
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_ferdinand_holy_prince_portugal = { #https://en.wikipedia.org/wiki/Ferdinand_the_Holy_Prince
+		first_name = { name = name_ferdinand }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1402.09.29
+		death_date = 1443.06.05
+		birth = santarem
+		father = por_john_i_portugal
+		#mother = Philippa of Lancaster https://en.wikipedia.org/wiki/Philippa_of_Lancaster
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_afonso_of_braganca_i_portugal = { #https://en.wikipedia.org/wiki/Afonso_I,_Duke_of_Braganza
+		first_name = { name = name_alphonse }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1377.08.10
+		adm = 67 dip = 57 mil = 62
+		birth = evora
+		father = por_john_i_portugal
+		#mother = Ines Peres
+		dynasty = braganca_dynasty
+		tag = POR
+			timed_modifier = {
+			modifier = "bastard"
+			start_date = 1287.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	por_beatrice_of_arundel_portugal = { #https://en.wikipedia.org/wiki/Beatrice,_Countess_of_Arundel
+		first_name = { name = name_beatrix }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1380.01.01
+		death_date = 1439.11.01
+		female = yes
+		birth = estremoz
+		father = por_john_i_portugal
+		#mother = Ines Peres
+		dynasty = braganca_dynasty
+		tag = POR
+			timed_modifier = {
+			modifier = "bastard"
+			start_date = 1287.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	#Edward spouse
+
+	ara_eleanor_of_portugal_trastamara = {	#https://en.wikipedia.org/wiki/Eleanor_of_Aragon,_Queen_of_Portugal
+		first_name = { name = name_eleanor }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1405.01.01
+		female = yes
+		adm = 32 dip = 52 mil = 30
+		birth = valladolid
+		father = cas_ferdinand_i_trastamara
+		#mother = Eleanor of Alburquerque https://en.wikipedia.org/wiki/Eleanor_of_Alburquerque
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	#Edward Children
+
+	por_john_infante_portugal = {
+		first_name = { name = name_john }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1429.10.15
+		death_date = 1433.08.14
+		birth = lisbon
+		father = por_edward_i_portugal
+		mother = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_philippa_infante_portugal = {
+		first_name = { name = name_john }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1430.11.27
+		death_date = 1439.03.24
+		birth = lisbon
+		father = por_edward_i_portugal
+		mother = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_afonso_v_portugal = { #https://en.wikipedia.org/wiki/Afonso_V_of_Portugal
+		first_name = { name = name_alphonse }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1432.01.15
+		adm = 52 dip = 56 mil = 86
+		birth = lisbon
+		father = por_edward_i_portugal
+		mother = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = POR
+		child_trait = child_gifted
+		ruler_trait = inspiring_leader
+	}
+
+	por_ferdinand_of_viseu_portugal = { #https://en.wikipedia.org/wiki/Ferdinand,_Duke_of_Viseu
+		first_name = { name = name_ferdinand }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1433.11.17
+		adm = 46 dip = 49 mil = 42
+		birth = lisbon
+		father = por_edward_i_portugal
+		mother = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_eleanor_empress_of_hre_portugal = { #https://en.wikipedia.org/wiki/Eleanor_of_Portugal,_Holy_Roman_Empress
+		first_name = { name = name_eleanor }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1434.09.18
+		adm = 62 dip = 73 mil = 36
+		birth = lisbon
+		father = por_edward_i_portugal
+		mother = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_catrina_the_nun_portugal = { #https://en.wikipedia.org/wiki/Catherine_of_Portugal_(nun)
+		first_name = { name = name_catherine }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1436.11.26
+		adm = 35 dip = 38 mil = 24
+		birth = lisbon
+		father = por_edward_i_portugal
+		mother = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = POR
+		ruler_trait = unsuited_for_country_ruling
+		ruler_trait = zealot
+	}
+
+	por_joan_of_castile_portugal = { #https://en.wikipedia.org/wiki/Joan_of_Portugal
+		first_name = { name = name_joanna }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1439.03.31
+		adm = 61 dip = 52 mil = 37
+		birth = lisbon
+		father = por_edward_i_portugal
+		mother = ara_eleanor_of_portugal_trastamara
+		dynasty = avis_dynasty
+		tag = CAS
+	}
+
+	#Peter children
+
+	por_peter_of_coimbra_ii_portugal = { #https://en.wikipedia.org/wiki/Peter,_Constable_of_Portugal
+		first_name = { name = name_peter }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1429.01.01
+		adm = 67 dip = 70 mil = 46
+		birth = coimbra
+		father = por_peter_of_coimbra_i_portugal
+		mother = por_isabella_of_coimbra_urgell
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_john_of_antioch_portugal = { #https://en.wikipedia.org/wiki/John_of_Coimbra,_Prince_of_Antioch
+		first_name = { name = name_john }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1431.01.01
+		adm = 49 dip = 43 mil = 46
+		birth = coimbra
+		father = por_peter_of_coimbra_i_portugal
+		mother = por_isabella_of_coimbra_urgell
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_isabel_coimbra_portugal = { #https://en.wikipedia.org/wiki/Isabel_of_Coimbra
+		first_name = { name = name_elizabeth }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1432.03.01
+		adm = 46 dip = 46 mil = 46
+		birth = coimbra
+		father = por_peter_of_coimbra_i_portugal
+		mother = por_isabella_of_coimbra_urgell
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_james_of_coimbra_portugal = { #https://en.wikipedia.org/wiki/James_of_Portugal
+		first_name = { name = name_james }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1433.09.17
+		adm = 56 dip = 57 mil = 32
+		birth = coimbra
+		father = por_peter_of_coimbra_i_portugal
+		mother = por_isabella_of_coimbra_urgell
+		dynasty = avis_dynasty
+		tag = POR
+			timed_modifier = { #died young
+			modifier = "sickly_character"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	por_beatrice_of_coimbra_portugal = { #https://en.wikipedia.org/wiki/Beatrice_of_Coimbra
+		first_name = { name = name_beatrix }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1435.01.01
+		adm = 32 dip = 35 mil = 32
+		birth = coimbra
+		father = por_peter_of_coimbra_i_portugal
+		mother = por_isabella_of_coimbra_urgell
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	#John children
+
+	por_diogo_santiago_portugal = { #https://en.wikipedia.org/wiki/Diogo,_Constable_of_Portugal
+		first_name = { name = name_diego }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1425.01.01
+		death_date = 1443.01.01
+		birth = lisbon
+		father = por_john_of_avis_portugal
+		mother = por_isabel_braganca_portugal
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_isabella_of_castile_portugal = { #https://en.wikipedia.org/wiki/Isabella_of_Portugal,_Queen_of_Castile
+		first_name = { name = name_elizabeth }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1428.01.01
+		birth = lisbon
+		father = por_john_of_avis_portugal
+		mother = por_isabel_braganca_portugal
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_beatrice_of_viseu_portugal = { #https://en.wikipedia.org/wiki/Beatriz_of_Portugal,_Duchess_of_Viseu
+		first_name = { name = name_beatrix }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1430.06.13
+		birth = lisbon
+		father = por_john_of_avis_portugal
+		mother = por_isabel_braganca_portugal
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	por_philipa_of_john_portugal = { 
+		first_name = { name = name_philippa }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1432.01.01
+		death_date = 1444.01.01
+		birth = lisbon
+		father = por_john_of_avis_portugal
+		mother = por_isabel_braganca_portugal
+		dynasty = avis_dynasty
+		tag = POR
+	}
+
+	#Braganca Line
+
+	por_afonso_of_braganca_ii_portugal = { #https://en.wikipedia.org/wiki/Afonso_of_Braganza,_1st_Marquis_of_Valen%C3%A7a
+		first_name = { name = name_alphonse }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1402.01.01
+		adm = 43 dip = 42 mil = 52
+		fertility = 10 #died childless
+		birth = lisbon
+		father = por_afonso_of_braganca_i_portugal
+		#mother = Beatriz Pereira https://en.wikipedia.org/wiki/Beatriz_Pereira_de_Alvim
+		dynasty = braganca_dynasty
+		tag = POR
+	}
+
+	por_isabel_braganca_portugal = { #https://en.wikipedia.org/wiki/Isabel_of_Barcelos
+		first_name = { name = name_elizabeth }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		female = yes
+		birth_date = 1402.10.01
+		adm = 54 dip = 52 mil = 32
+		birth = braga
+		father = por_afonso_of_braganca_i_portugal
+		#mother = Beatriz Pereira https://en.wikipedia.org/wiki/Beatriz_Pereira_de_Alvim
+		dynasty = braganca_dynasty
+		tag = POR
+	}
+
+	por_fernando_of_braganca_i_portugal = { #https://en.wikipedia.org/wiki/Fernando_I,_Duke_of_Braganza
+		first_name = { name = name_ferdinand }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1403.09.01
+		adm = 74 dip = 62 mil = 72
+		birth = lisbon
+		father = por_afonso_of_braganca_i_portugal
+		#mother = Beatriz Pereira https://en.wikipedia.org/wiki/Beatriz_Pereira_de_Alvim
+		dynasty = braganca_dynasty
+		tag = POR
+	}	
+
+	por_fernando_of_braganca_ii_portugal = { #https://en.wikipedia.org/wiki/Fernando_II,_Duke_of_Braganza#Marriage_and_issue
+		first_name = { name = name_ferdinand }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1430.01.01
+		adm = 52 dip = 82 mil = 64
+		birth = lisbon
+		father = por_fernando_of_braganca_i_portugal
+		#mother = Joana de Castro
+		dynasty = braganca_dynasty
+		tag = POR
+	}	
+
+	por_joao_of_braganca_portugal = { #https://en.wikipedia.org/wiki/Jo%C3%A3o_of_Braganza,_Marquis_of_Montemor-o-Novo
+		first_name = { name = name_john }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1430.11.01
+		adm = 59 dip = 54 mil = 53
+		fertility = 10 #childless
+		birth = lisbon
+		father = por_fernando_of_braganca_i_portugal
+		#mother = Joana de Castro
+		dynasty = braganca_dynasty
+		tag = POR
+	}	
+
+	por_alvaro_of_braganca_portugal = { #https://en.wikipedia.org/wiki/%C3%81lvaro_de_Bragan%C3%A7a
+		first_name = { name = name_alvar }
+		culture = portuguese
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1440.01.01
+		adm = 75 dip = 62 mil = 53
+		birth = lisbon
+		father = por_fernando_of_braganca_i_portugal
+		#mother = Joana de Castro
+		dynasty = braganca_dynasty
+		tag = POR
+	}	
+
+
 
 	# Robertian Dukes of Burgundy
 
@@ -13061,6 +13623,7 @@ character_db={
 		estate = nobles_estate
 		female = yes
 		birth_date = 1307.1.1
+		death_date = 1359.01.01
 		birth = valladolid # Castile
 		father = cas_fernando_iv_burgundy
 		mother = cas_constance_portugal
@@ -13078,6 +13641,7 @@ character_db={
 		estate = nobles_estate
 		adm = 69 dip = 58 mil = 80
 		birth_date = 1311.8.13
+		death_date = 1350.03.26
 		birth = salamanca
 		father = cas_fernando_iv_burgundy
 		mother = cas_constance_portugal
@@ -13093,6 +13657,7 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1331.12.1 # Ends of 1331
+		death_date = 1338.01.01
 		birth = valladolid
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
@@ -13114,12 +13679,12 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1332.12.1 # Ends of 1332
+		death_date = 1343.01.01
 		birth = valladolid
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = burgundy_castile_dynasty
 		tag = CAS
-		child_trait = child_slow
 		timed_modifier = {
 			modifier = "bastard"
 			start_date = 1332.12.1
@@ -13136,12 +13701,12 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1334.1.13
+		death_date = 1379.05.29
 		birth = sevilla
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = trastamara_dynasty # Founder of the House of Trastamara
 		tag = CAS
-		child_trait = child_ambitious
 		timed_modifier = {
 			modifier = "bastard"
 			start_date = 1334.1.13
@@ -13157,12 +13722,12 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1334.1.13
+		death_date = 1358.05.29
 		birth = sevilla
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = enriquez_castile_dynasty
 		tag = CAS
-		child_trait = child_rowdy
 		timed_modifier = {
 			modifier = "bastard"
 			start_date = 1334.1.13
@@ -13178,12 +13743,12 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1334.8.30
+		death_date = 1369.03.23
 		birth = burgos
 		father = cas_alfonso_xi_burgundy
 		mother = cas_maria_portugal
 		dynasty = burgundy_castile_dynasty
 		tag = CAS
-		child_trait = child_rowdy
 	}
 
 	# Bastard Son of the King of Castile
@@ -13193,6 +13758,7 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1334.11.1 #Unknown in 1334, later than 30 of August
+		death_date = 1350.01.01
 		birth = valladolid # Castile
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
@@ -13206,6 +13772,320 @@ character_db={
 		}
 	}
 
+	# Bastard Son of the King of Castile
+	cas_sancho_alfonso_alburquerque = { # Bastard	
+		first_name = { name = name_sancho }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1342.01.01
+		death_date = 1374.02.19
+		birth = valladolid # Castile
+		father = cas_alfonso_xi_burgundy
+		mother = cas_leonor_guzman # Mistress
+		spouse = por_beatrice_of_alburquerque_portugal
+		dynasty = burgundy_castile_dynasty
+		tag = CAS
+		timed_modifier = {
+			modifier = "bastard"
+			start_date = 1334.11.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	# House of Trastamara
+
+	#Henry children
+
+	cas_john_i_trastamara = {	#https://en.wikipedia.org/wiki/John_I_of_Castile
+		first_name = { name = name_john }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1358.08.24
+		death_date = 1390.10.09
+		birth = zaragoza
+		father = cas_enrique_ii_trastamara
+		#mother = Juana Manuel https://en.wikipedia.org/wiki/Juana_Manuel
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	cas_eleanor_of_navarre_trastamara = {	#https://en.wikipedia.org/wiki/Eleanor_of_Castile,_Queen_of_Navarre
+		first_name = { name = name_eleanor }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1363.01.01
+		death_date = 1415.02.27
+		female = yes
+		birth = toledo
+		father = cas_enrique_ii_trastamara
+		#mother = Juana Manuel https://en.wikipedia.org/wiki/Juana_Manuel
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	#John children
+
+	cas_henry_iii_trastamara = {	#https://en.wikipedia.org/wiki/Henry_III_of_Castile
+		first_name = { name = name_henry }
+		nickname = { name = the_infirm }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1379.10.04
+		death_date = 1406.12.25
+		birth = burgos
+		father = cas_john_i_trastamara
+		mother = ara_eleanor_of_castile_arago
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	cas_ferdinand_i_trastamara = {	#https://en.wikipedia.org/wiki/Ferdinand_I_of_Aragon
+		first_name = { name = name_ferdinand }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1380.11.27
+		death_date = 1416.04.02
+		birth = valladolid
+		father = cas_john_i_trastamara
+		mother = ara_eleanor_of_castile_arago
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	#Henry children / Castile branch
+
+	cas_maria_of_castile_trastamara = {	#https://en.wikipedia.org/wiki/Maria_of_Castile
+		first_name = { name = name_mary }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1401.09.14
+		female = yes
+		birth = segovia
+		father = cas_henry_iii_trastamara
+		#mother = Cathrine of Lancaster https://en.wikipedia.org/wiki/Catherine_of_Lancaster
+		#spouse = Alfonso V of Aragon
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	cas_cathrine_of_vilena_trastamara = {	#https://en.wikipedia.org/wiki/Maria_of_Castile
+		first_name = { name = name_catherine }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1403.01.01
+		death_date = 1439.01.01
+		female = yes
+		birth = segovia
+		father = cas_henry_iii_trastamara
+		#mother = Cathrine of Lancaster https://en.wikipedia.org/wiki/Catherine_of_Lancaster
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	cas_john_ii_trastamara = {	#https://en.wikipedia.org/wiki/John_II_of_Castile
+		first_name = { name = name_john }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1405.03.06
+		adm = 28 dip = 34 mil = 21
+		birth = zamora
+		father = cas_henry_iii_trastamara
+		#mother = Cathrine of Lancaster https://en.wikipedia.org/wiki/Catherine_of_Lancaster
+		spouse = ara_maria_of_castile_trastamara
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	ara_maria_of_castile_trastamara = {	#https://en.wikipedia.org/wiki/Maria_of_Aragon,_Queen_of_Castile
+		first_name = { name = name_mary }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1403.02.24
+		female = yes
+		adm = 42 dip = 37 mil = 34
+		birth = valladolid
+		father = cas_ferdinand_i_trastamara
+		#mother = Eleanor of Alburquerque https://en.wikipedia.org/wiki/Eleanor_of_Alburquerque
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	#John children
+
+	cas_catherine_of_asturias_trastamara = {	#https://en.wikipedia.org/wiki/Catherine,_Princess_of_Asturias
+		first_name = { name = name_catherine }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1422.10.05
+		death_date = 1424.09.10
+		female = yes
+		birth = toledo
+		father = cas_john_ii_trastamara
+		mother = ara_maria_of_castile_trastamara
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	cas_eleanor_of_asturias_trastamara = {	#https://en.wikipedia.org/wiki/Eleanor,_Princess_of_Asturias
+		first_name = { name = name_eleanor }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1422.10.05
+		death_date = 1425.08.22
+		female = yes
+		birth = oviedo
+		father = cas_john_ii_trastamara
+		mother = ara_maria_of_castile_trastamara
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	cas_henry_iv_trastamara = {	#https://en.wikipedia.org/wiki/Henry_IV_of_Castile
+		first_name = { name = name_henry }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1425.01.05
+		adm = 10 dip = 24 mil = 10
+		birth = valladolid
+		fertility = 10 #one child whos paternity was in question, and known as the impotent
+		father = cas_john_ii_trastamara
+		mother = ara_maria_of_castile_trastamara
+		#spouse = blanche ii of navarre https://en.wikipedia.org/wiki/Blanche_II_of_Navarre
+		dynasty = trastamara_dynasty
+		tag = CAS
+		child_trait = child_idiot
+		ruler_trait = naive
+	}
+
+	cas_maria_infante_trastamara = {
+		first_name = { name = name_mary }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1428.01.01
+		death_date = 1429.01.01
+		female = yes
+		birth = toledo
+		father = cas_john_ii_trastamara
+		mother = ara_maria_of_castile_trastamara
+		dynasty = trastamara_dynasty
+		tag = CAS
+	}
+
+	#Ferdinand children / Aragon branch
+
+	#Ferdinand wife
+
+	ara_eleanor_alburquerque = {
+		first_name = { name = name_ferdinand }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1374.01.01
+		death_date = 1435.12.16
+		birth = salamanca
+		father = cas_sancho_alfonso_alburquerque
+		mother = por_beatrice_of_alburquerque_portugal
+		female = yes
+		dynasty = burgundy_castile_dynasty
+		tag = CAS
+		timed_modifier = {
+			modifier = "bastard"
+			start_date = 1334.11.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	ara_alfonso_v_trastamara = {	#https://en.wikipedia.org/wiki/Alfonso_V_of_Aragon
+		first_name = { name = name_alphonse }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1396.01.01
+		adm = 67 dip = 54 mil = 72
+		birth = valladolid
+		father = cas_ferdinand_i_trastamara
+		mother = ara_eleanor_alburquerque
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	#Maria of Aragon moved above for being mother to castilian children
+
+	ara_john_ii_trastamara = {	#https://en.wikipedia.org/wiki/John_II_of_Aragon
+		first_name = { name = name_john }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1398.06.29
+		adm = 65 dip = 72 mil = 64
+		birth = valladolid
+		father = cas_ferdinand_i_trastamara
+		mother = ara_eleanor_alburquerque
+		#spouse = Blanche I of Navarre died 1441
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	ara_henry_of_villena_trastamara = {	#https://en.wikipedia.org/wiki/Henry,_Duke_of_Villena
+		first_name = { name = name_henry }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1400.01.01
+		adm = 42 dip = 56 mil = 32
+		birth = valladolid
+		father = cas_ferdinand_i_trastamara
+		mother = ara_eleanor_alburquerque
+		#spouse = beatriz de pimentel
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	#Eleanor moved up to Portugal to not crash the game
+
+	ara_peter_of_alburquerque_trastamara = { #https://en.wikipedia.org/wiki/Peter_of_Aragon,_Count_of_Alburquerque
+		first_name = { name = name_peter }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1406.01.01
+		death_date = 1438.01.01
+		birth = valladolid
+		father = cas_ferdinand_i_trastamara
+		mother = ara_eleanor_alburquerque
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	ara_sancho_of_aragon_trastamara = { #https://en.wikipedia.org/wiki/Sancho_of_Aragon_(died_1416)
+		first_name = { name = name_sancho }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1400.01.01
+		death_date = 1416.03.01
+		birth = valladolid
+		father = cas_ferdinand_i_trastamara
+		mother = ara_eleanor_alburquerque
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
 	# Queen Consort of Portugal
 	por_beatriz_portugal = {	
 		first_name = { name = name_beatrix }
@@ -13215,6 +14095,7 @@ character_db={
 		adm = 59 dip = 65 mil = 30
 		female = yes
 		birth_date = 1293.3.8
+		death_date = 1359.10.25
 		birth = toro
 		father = cas_sancho_iv_burgundy
 		#mother = cas_maria_molina
@@ -13231,6 +14112,7 @@ character_db={
 		estate = nobles_estate
 		adm = 72 dip = 44 mil = 38
 		birth_date = 1282.5.5
+		death_date = 1348.06.13
 		birth = puebla_de_montalban # Escalona
 		#father = sto_manuel_burgundy
 		#mother = cas_beatrice_savoie
@@ -45307,11 +46189,55 @@ adm = 31 dip = 34 mil = 24
 		estate = nobles_estate
 		adm = 75 dip = 50 mil = 81
 		birth_date = 1319.9.5
+		death_date = 1387.01.05
 		birth = balaguer
 		father = ara_alfonso_iv_arago
 		mother = ara_teresa_entenza
 		dynasty = barcelona_dynasty
 		ruler_trait = strict
+		tag = ARA
+	}
+
+	ara_john_i_arago = {	
+		first_name = { name = name_john }
+		culture = catalan
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1350.12.27
+		death_date = 1386.05.19
+		birth = roussillon
+		father = ara_peter_iv_arago
+		mother = sic_eleonora_sicily
+		dynasty = barcelona_dynasty
+		tag = ARA
+	}
+
+	ara_martin_i_arago = {	
+		first_name = { name = name_martin }
+		culture = catalan
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1356.07.29
+		death_date = 1410.05.31
+		birth = girona
+		father = ara_peter_iv_arago
+		mother = sic_eleonora_sicily
+		dynasty = barcelona_dynasty
+		tag = ARA
+	}
+
+	ara_eleanor_of_castile_arago = {	
+		first_name = { name = name_eleanor }
+		culture = catalan
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1358.02.20
+		death_date = 1382.08.13
+		female = yes
+		birth = valencia
+		father = ara_peter_iv_arago
+		mother = sic_eleonora_sicily
+		dynasty = barcelona_dynasty
 		tag = ARA
 	}
 
@@ -45330,6 +46256,23 @@ adm = 31 dip = 34 mil = 24
 		tag = ARA
 	}
 
+	#wife of Coimbra
+
+	por_isabella_of_coimbra_urgell = {
+		first_name = { name = name_elizabeth }
+		culture = aragonese
+		religion = catholic
+		estate = nobles_estate
+		adm = 54 dip = 56 mil = 42	
+		female = yes
+		birth_date = 1409.03.12
+		birth = barcelona
+		#father = james of urgell https://en.wikipedia.org/wiki/James_II,_Count_of_Urgell
+		#mother = isabella of urgell https://en.wikipedia.org/wiki/Isabella_of_Aragon,_Countess_of_Urgell
+		dynasty = urgell_dynasty
+		tag = POR
+	}
+
 	ara_ferdinand_arago = {	
 		first_name = { name = name_ferdinand }
 		culture = catalan
@@ -45337,6 +46280,7 @@ adm = 31 dip = 34 mil = 24
 		estate = nobles_estate
 		adm = 27 dip = 9 mil = 27
 		birth_date = 1329.1.1
+		death_date = 1363.01.01
 		birth = valencia
 		father = ara_alfonso_iv_arago
 		mother = ara_leonor_burgundy
@@ -45351,6 +46295,7 @@ adm = 31 dip = 34 mil = 24
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1330.1.1
+		death_date = 1358.01.01
 		birth = valencia
 		father = ara_alfonso_iv_arago
 		mother = ara_leonor_burgundy
@@ -45745,6 +46690,7 @@ adm = 31 dip = 34 mil = 24
 		estate = nobles_estate
 		female = yes
 		birth_date = 1325.1.1
+		death_date = 1375.01.01
 		birth = catania
 		father = sic_pietro_ii_sicily
 		mother = sic_elisabeth_karnten

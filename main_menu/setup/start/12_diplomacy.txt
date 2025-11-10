@@ -227,9 +227,9 @@ diplomacy_manager = {
 
     dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
 
-    dependency = { first = VER second = PAD subject_type = vassal }
-    dependency = { first = VER second = PAR subject_type = vassal }
-    dependency = { first = VER second = LUC subject_type = vassal }
+    # dependency = { first = VER second = PAD subject_type = vassal }
+    # dependency = { first = VER second = PAR subject_type = vassal }
+    # dependency = { first = VER second = LUC subject_type = vassal }
 
     #dependency = { first = SIC second = ATH subject_type = vassal }
     #dependency = { first = SIC second = NEO subject_type = vassal }
