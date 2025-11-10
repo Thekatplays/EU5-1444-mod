@@ -10692,16 +10692,18 @@ countries = {
 			type = monarchy
 			heir_selection = salic_law
 
-			ruler = nap_robert_i_anjou
-			consort = nap_sancha_aragon
+			ruler = ara_alfonso_v_trastamara
 
 			ruler_term = { character = nap_charles_i_anjou start_date = 1246.1.31 end_date = 1285.1.7 regnal_number = 1 }
 			ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1309.5.5 regnal_number = 2 }
-			ruler_term = { character = nap_robert_i_anjou start_date = 1309.5.5 regnal_number = 1 }
+			ruler_term = { character = nap_robert_i_anjou start_date = 1309.5.5 end_date = 1343.01.20 regnal_number = 1 }
+
+			ruler_term = { character = ara_alfonso_v_trastamara start_date = 1442.06.02 regnal_number = 1 }
 
 			regnal_numbers = {
 				name_charles = 2
 				name_robert = 1
+				name_alphonse = 1
 			}
 
 
@@ -11618,7 +11620,7 @@ countries = {
 	}
 
 
-	SIC = {
+	SIC = { #Sicily
 		own_control_core = {
 			catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
 			corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
@@ -11638,9 +11640,7 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 
-			ruler = sic_federico_iii_sicily
-			consort = sic_eleonora_anjou
-			heir = sic_pietro_ii_sicily
+			ruler = ara_alfonso_v_trastamara
 
 			ruler_term = { character = ogk_heinrich_vi_hohenstaufen start_date = 1194.12.25 end_date = 1197.9.28 regnal_number = 2 } # Marital Co-Ruler
 
@@ -11670,7 +11670,10 @@ countries = {
 				character = ara_pere_iii_arago start_date = 1282.11.26 end_date = 1285.11.11 regnal_number = 1 # Marital Co-Ruler
 			}
 			ruler_term = { character = ara_jaume_ii_arago start_date = 1285.11.11 end_date = 1295.12.11 regnal_number = 1 }
-			ruler_term = { character = sic_federico_iii_sicily start_date = 1295.12.11 regnal_number = 3 }
+			ruler_term = { character = sic_federico_iii_sicily start_date = 1295.12.11 end_date = 1337.06.25 regnal_number = 3 }
+
+			ruler_term = { character = cas_ferdinand_i_trastamara start_date = 1412.06.25 end_date = 1416.04.02 regnal_number = 1 }
+			ruler_term = { character = ara_alfonso_v_trastamara start_date = 1416.04.02 regnal_number = 1 }
 
 			regnal_numbers = {
 				name_roger = 3
@@ -11685,6 +11688,8 @@ countries = {
 				name_charles = 1
 				name_james = 1
 				name_peter = 1
+				name_ferdinand = 1
+				name_alphonse = 1
 			}
 		}
 
@@ -14163,7 +14168,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = nav_jeanne_ii_capet
+			ruler = ara_john_ii_trastamara
 
 			ruler_term = { character = nav_inigo_arista start_date = 815.1.1 end_date = 851.1.1 regnal_number = 1 }
 			ruler_term = { character = nav_garcia_iniguez start_date = 851.1.1 end_date = 882.1.1 regnal_number = 0 }
@@ -14201,8 +14206,18 @@ countries = {
 			ruler_term = { character = fra_jean_i_capet start_date = 1316.11.15 end_date = 1316.11.20 regnal_number = 1 }
 			ruler_term = { character = fra_philippe_v_capet start_date = 1316.11.20 end_date = 1322.1.3 regnal_number = 2 }
 			ruler_term = { character = fra_charles_iv_capet start_date = 1322.1.3 end_date = 1328.2.1 regnal_number = 1 }
-			ruler_term = { character = nav_jeanne_ii_capet start_date = 1328.2.1 regnal_number = 2 }
-			#ruler_term = { character = nav_philip_iii_evreux start_date = 1328.2.1 regnal_number = 3 } # Marital Co-Ruler
+			ruler_term = { 
+				character = nav_jeanne_ii_capet start_date = 1328.2.1 end_date = 1343.09.16 regnal_number = 2 
+				character = nav_philip_iii_evreux start_date = 1328.2.1 end_date = 1343.09.16 regnal_number = 3
+			}
+			ruler_term = { character = nav_jeanne_ii_capet start_date = 1343.09.16 end_date = 1349.10.06 regnal_number = 3 }
+			ruler_term = { character = nav_charles_ii_evreux start_date = 1349.10.06 end_date = 1387.01.01 regnal_number = 2 }
+			ruler_term = { character = nav_charles_iii_evreux start_date = 1387.01.01 end_date = 1425.09.08 regnal_number = 3 }
+			ruler_term = { 
+				character = nav_blanche_i_evreux start_date = 1425.09.08 end_date = 1441.04.03 regnal_number = 1 
+				character = ara_john_ii_trastamara start_date = 1425.09.08 end_date = 1441.04.03 regnal_number = 2
+			}
+			ruler_term = { character = ara_john_ii_trastamara start_date = 1441.04.03 regnal_number = 2 }
 
 			regnal_numbers = {
 				name_inigo = 1
@@ -14216,8 +14231,9 @@ countries = {
 				name_joanna = 2
 				name_philip = 3
 				name_louis = 1
-				name_john = 1
-				name_charles = 1
+				name_john = 2
+				name_charles = 3
+				name_blanche = 1
 			}
 
 			reforms = {

@@ -8658,6 +8658,7 @@ character_db={
 		adm = 60 dip = 49 mil = 60
 		female = yes
 		birth_date = 1312.1.28
+		death_date = 1949.10.06
 		birth = gisors # Conflans
 		father = fra_louis_x_capet
 		mother = fra_margarete_burgundian
@@ -9076,6 +9077,7 @@ character_db={
 		estate = nobles_estate
 		female = yes
 		birth_date = 1326.1.1
+		death_date = 1387.07.03
 		birth = evreux
 		father = nav_philip_iii_evreux
 		mother = nav_jeanne_ii_capet
@@ -9090,6 +9092,7 @@ character_db={
 		estate = nobles_estate
 		female = yes
 		birth_date = 1329.1.1
+		death_date = 1347.04.29
 		birth = evreux
 		father = nav_philip_iii_evreux
 		mother = nav_jeanne_ii_capet
@@ -9107,6 +9110,7 @@ character_db={
 		adm = 9 dip = 9 mil = 3
 		female = yes	
 		birth_date = 1331.1.1
+		death_date = 1398.01.01
 		birth = evreux
 		father = nav_philip_iii_evreux
 		mother = nav_jeanne_ii_capet
@@ -9114,7 +9118,7 @@ character_db={
 		tag = NAV
 	}
 
-	nav_charles_ii_evreux = {	
+	nav_charles_ii_evreux = { #https://en.wikipedia.org/wiki/Charles_II_of_Navarre
 		first_name = { name = name_charles }
 		nickname = { name = Bad }
 		culture = french
@@ -9122,9 +9126,11 @@ character_db={
 		estate = nobles_estate
 		adm = 5 dip = 3 mil = 5
 		birth_date = 1332.10.10
+		death_date = 1387.01.01
 		birth = evreux
 		father = nav_philip_iii_evreux
 		mother = nav_jeanne_ii_capet
+		#spouse = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
 		dynasty = de_evreux_dynasty
 		tag = NAV
 		child_trait = child_ambitious
@@ -9136,6 +9142,7 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1336.1.1
+		death_date = 1363.08.01
 		birth = evreux
 		father = nav_philip_iii_evreux
 		mother = nav_jeanne_ii_capet
@@ -9150,9 +9157,273 @@ character_db={
 		estate = nobles_estate
 		female = yes
 		birth_date = 1334.1.1
+		death_date = 1396.01.01
 		birth = evreux
 		father = nav_philip_iii_evreux
 		mother = nav_jeanne_ii_capet
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_louis_evreux = {	
+		first_name = { name = name_louis }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1341.01.01
+		death_date = 1376.01.01
+		birth = evreux
+		father = nav_philip_iii_evreux
+		mother = nav_jeanne_ii_capet
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_joan_evreux = {	
+		first_name = { name = name_joanna }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1342.01.01
+		death_date = 1403.01.01
+		female = yes
+		birth = evreux
+		father = nav_philip_iii_evreux
+		mother = nav_jeanne_ii_capet
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	#Charles children
+
+	nav_marie_charles_evreux = {	
+		first_name = { name = name_mary }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1360.01.01
+		death_date = 1400.01.01
+		female = yes
+		birth = mantes
+		father = nav_charles_ii_evreux
+		#mother = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_charles_iii_evreux = {	#https://en.wikipedia.org/wiki/Charles_III_of_Navarre
+		first_name = { name = name_charles }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1361.07.22
+		death_date = 1425.09.08
+		birth = mantes
+		father = nav_charles_ii_evreux
+		#mother = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
+		spouse = cas_eleanor_of_navarre_trastamara
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_bonne_evreux = {	
+		first_name = { name = name_bonne }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1364.01.01
+		death_date = 1390.01.01
+		female = yes
+		birth = mantes
+		father = nav_charles_ii_evreux
+		#mother = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_pedro_of_mortain_evreux = {	
+		first_name = { name = name_peter }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1366.03.31
+		death_date = 1412.07.29
+		birth = evreux
+		father = nav_charles_ii_evreux
+		#mother = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_philip_evreux = {	
+		first_name = { name = name_philip }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1368.01.01
+		death_date = 1369.01.01
+		birth = evreux
+		father = nav_charles_ii_evreux
+		#mother = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_joanna_of_england_evreux = {	
+		first_name = { name = name_joanna }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1368.01.01
+		death_date = 1437.06.10
+		female = yes
+		birth = evreux
+		father = nav_charles_ii_evreux
+		#mother = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
+		#spouse = henry iv https://en.wikipedia.org/wiki/Henry_IV_of_England
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_blanche_charles_evreux = {	
+		first_name = { name = name_blanche }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1372.01.01
+		death_date = 1385.01.01
+		female = yes
+		birth = evreux
+		father = nav_charles_ii_evreux
+		#mother = Joan of france https://en.wikipedia.org/wiki/Joan_of_Valois,_Queen_of_Navarre
+		#spouse = henry iv https://en.wikipedia.org/wiki/Henry_IV_of_England
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	#Charles iii children
+
+	nav_joan_regent_evreux = {	#https://en.wikipedia.org/wiki/Joan_of_Navarre_(regent)
+		first_name = { name = name_joanna }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1382.01.01
+		death_date = 1413.06.01
+		female = yes
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_maria_of_charles_evreux = {	
+		first_name = { name = name_mary }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1383.01.01
+		death_date = 1406.01.01
+		female = yes
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
+		dynasty = de_evreux_dynasty
+		tag = NAV
+		timed_modifier = { #ill
+			modifier = "sickly_character"
+			start_date = 1383.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	nav_beatrice_of_le_marche_evreux = {	#https://en.wikipedia.org/wiki/Beatrice_of_Navarre,_Countess_of_La_Marche
+		first_name = { name = name_beatrix }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1386.10.23
+		death_date = 1407.12.14
+		female = yes
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_blanche_i_evreux = {	#https://en.wikipedia.org/wiki/Blanche_I_of_Navarre
+		first_name = { name = name_blanche }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1387.07.06
+		death_date = 1441.04.01
+		female = yes
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
+		spouse = ara_john_ii_trastamara
+		dynasty = de_evreux_dynasty
+		tag = ARA
+	}
+
+	nav_isabella_of_armagnac_evreux = {	#https://en.wikipedia.org/wiki/Isabella_of_Navarre,_Countess_of_Armagnac
+		first_name = { name = name_elizabeth }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1395.07.06
+		female = yes
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
+		#spouse = john iv armagnac https://en.wikipedia.org/wiki/Jean_IV,_Count_of_Armagnac
+		dynasty = de_evreux_dynasty
+		tag = AMG
+	}
+
+	nav_charles_charles_evreux = {
+		first_name = { name = name_charles }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1397.01.01
+		death_date = 1402.01.01
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_louis_charles_evreux = {
+		first_name = { name = name_louis }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1402.01.01
+		death_date = 1402.06.01
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
+		dynasty = de_evreux_dynasty
+		tag = NAV
+	}
+
+	nav_margaret_charles_evreux = {
+		first_name = { name = name_margaret }
+		culture = french
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1403.01.01
+		death_date = 1403.06.01
+		female = yes
+		birth = evreux
+		father = nav_charles_iii_evreux
+		mother = cas_eleanor_of_navarre_trastamara
 		dynasty = de_evreux_dynasty
 		tag = NAV
 	}
@@ -12225,7 +12496,7 @@ character_db={
 		adm = 32 dip = 52 mil = 30
 		birth = valladolid
 		father = cas_ferdinand_i_trastamara
-		#mother = Eleanor of Alburquerque https://en.wikipedia.org/wiki/Eleanor_of_Alburquerque
+		mother = ara_eleanor_alburquerque
 		dynasty = trastamara_dynasty
 		tag = CAS
 	}
@@ -13823,6 +14094,7 @@ character_db={
 		birth = toledo
 		father = cas_enrique_ii_trastamara
 		#mother = Juana Manuel https://en.wikipedia.org/wiki/Juana_Manuel
+		spouse = nav_charles_iii_evreux
 		dynasty = trastamara_dynasty
 		tag = CAS
 	}
@@ -13866,16 +14138,17 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1401.09.14
+		fertility = 10 #had no kids lol!!
 		female = yes
 		birth = segovia
 		father = cas_henry_iii_trastamara
 		#mother = Cathrine of Lancaster https://en.wikipedia.org/wiki/Catherine_of_Lancaster
-		#spouse = Alfonso V of Aragon
+		spouse = ara_alfonso_v_trastamara
 		dynasty = trastamara_dynasty
 		tag = CAS
 	}
 
-	cas_cathrine_of_vilena_trastamara = {	#https://en.wikipedia.org/wiki/Maria_of_Castile
+	cas_cathrine_of_vilena_trastamara = {	#https://en.wikipedia.org/wiki/Infanta_Catherine,_Duchess_of_Villena
 		first_name = { name = name_catherine }
 		culture = castilian
 		religion = catholic
@@ -13915,7 +14188,7 @@ character_db={
 		adm = 42 dip = 37 mil = 34
 		birth = valladolid
 		father = cas_ferdinand_i_trastamara
-		#mother = Eleanor of Alburquerque https://en.wikipedia.org/wiki/Eleanor_of_Alburquerque
+		mother = ara_eleanor_alburquerque
 		dynasty = trastamara_dynasty
 		tag = CAS
 	}
@@ -13963,7 +14236,7 @@ character_db={
 		fertility = 10 #one child whos paternity was in question, and known as the impotent
 		father = cas_john_ii_trastamara
 		mother = ara_maria_of_castile_trastamara
-		#spouse = blanche ii of navarre https://en.wikipedia.org/wiki/Blanche_II_of_Navarre
+		spouse = ara_blanche_ii_of_navarre_trastamara
 		dynasty = trastamara_dynasty
 		tag = CAS
 		child_trait = child_idiot
@@ -13989,7 +14262,7 @@ character_db={
 
 	#Ferdinand wife
 
-	ara_eleanor_alburquerque = {
+	ara_eleanor_alburquerque = { #https://en.wikipedia.org/wiki/Eleanor_of_Alburquerque
 		first_name = { name = name_ferdinand }
 		culture = castilian
 		religion = catholic
@@ -14020,6 +14293,7 @@ character_db={
 		birth = valladolid
 		father = cas_ferdinand_i_trastamara
 		mother = ara_eleanor_alburquerque
+		spouse = cas_maria_of_castile_trastamara
 		dynasty = trastamara_dynasty
 		tag = ARA
 	}
@@ -14082,6 +14356,89 @@ character_db={
 		birth = valladolid
 		father = cas_ferdinand_i_trastamara
 		mother = ara_eleanor_alburquerque
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	#Bastard son of Ferdinand
+
+	ara_ferdinand_i_of_naples_trastamara = {	#https://en.wikipedia.org/wiki/Ferdinand_I_of_Naples
+		first_name = { name = name_ferdinand }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1423.06.02
+		adm = 68 dip = 65 mil = 76
+		birth = valencia
+		father = ara_alfonso_v_trastamara
+		#mother = Giraldona Calrino
+		dynasty = trastamara_dynasty
+		tag = ARA
+		timed_modifier = {
+			modifier = "bastard"
+			start_date = 1423.06.02
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	#John children
+
+	ara_charles_prince_of_viana_trastamara = { #https://en.wikipedia.org/wiki/Charles,_Prince_of_Viana
+		first_name = { name = name_charles }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1421.05.29
+		birth = valladolid
+		father = ara_john_ii_trastamara
+		mother = nav_blanche_i_evreux
+		#spouse = Agnes of Cleves https://en.wikipedia.org/wiki/Agnes_of_Cleves
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	ara_joanna_of_navarre_trastamara = {
+		first_name = { name = name_joanna }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1423.01.01
+		death_date = 1425.08.22
+		female = yes
+		birth = valladolid
+		father = ara_john_ii_trastamara
+		mother = nav_blanche_i_evreux
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	ara_blanche_ii_of_navarre_trastamara = { #https://en.wikipedia.org/wiki/Blanche_II_of_Navarre
+		first_name = { name = name_blanche }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1424.06.09
+		female = yes
+		fertility = 10 #no children lol (husband just hated her tho)
+		birth = olite
+		father = ara_john_ii_trastamara
+		mother = nav_blanche_i_evreux
+		dynasty = trastamara_dynasty
+		tag = ARA
+	}
+
+	ara_eleanor_of_navarre_trastamara = { #https://en.wikipedia.org/wiki/Eleanor_of_Navarre
+		first_name = { name = name_eleanor }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 14226.02.02
+		female = yes
+		birth = olite
+		father = ara_john_ii_trastamara
+		mother = nav_blanche_i_evreux
+		#spouse = Gaston count of Foix https://en.wikipedia.org/wiki/Gaston_IV,_Count_of_Foix
 		dynasty = trastamara_dynasty
 		tag = ARA
 	}
@@ -46187,7 +46544,6 @@ adm = 31 dip = 34 mil = 24
 		culture = catalan
 		religion = catholic
 		estate = nobles_estate
-		adm = 75 dip = 50 mil = 81
 		birth_date = 1319.9.5
 		death_date = 1387.01.05
 		birth = balaguer
@@ -46195,6 +46551,65 @@ adm = 31 dip = 34 mil = 24
 		mother = ara_teresa_entenza
 		dynasty = barcelona_dynasty
 		ruler_trait = strict
+		tag = ARA
+	}
+
+	ara_constance_of_sicily_arago = {	
+		first_name = { name = name_constance }
+		culture = catalan
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1343.01.01
+		death_date = 1363.07.18
+		female = yes
+		birth = montblanc
+		father = ara_peter_iv_arago
+		mother = nav_maria_evreux
+		dynasty = barcelona_dynasty
+		tag = ARA
+	}
+
+	ara_joanna_of_aragon_arago = {	
+		first_name = { name = name_joanna }
+		culture = catalan
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1344.11.07
+		death_date = 1385.01.01
+		female = yes
+		birth = barcelona
+		father = ara_peter_iv_arago
+		mother = nav_maria_evreux
+		dynasty = barcelona_dynasty
+		tag = ARA
+	}
+
+	ara_maria_infante_arago = {	
+		first_name = { name = name_mary }
+		culture = catalan
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1346.01.01
+		death_date = 1348.06.03
+		female = yes
+		birth = barcelona
+		father = ara_peter_iv_arago
+		mother = nav_maria_evreux
+		dynasty = barcelona_dynasty
+		tag = ARA
+	}
+
+	ara_peter_infante_arago = {	
+		first_name = { name = name_peter }
+		culture = catalan
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1347.04.28
+		death_date = 1347.04.28
+		birth = barcelona
+		father = ara_peter_iv_arago
+		mother = nav_maria_evreux
+		dynasty = barcelona_dynasty
 		tag = ARA
 	}
 
@@ -46226,7 +46641,7 @@ adm = 31 dip = 34 mil = 24
 		tag = ARA
 	}
 
-	ara_eleanor_of_castile_arago = {	
+	ara_eleanor_of_castile_arago = { #https://en.wikipedia.org/wiki/Eleanor_of_Aragon,_Queen_of_Castile
 		first_name = { name = name_eleanor }
 		culture = catalan
 		religion = catholic
