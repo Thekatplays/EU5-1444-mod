@@ -10874,7 +10874,7 @@ countries = {
 		country_rank = rank_kingdom
 		government = {
 
-			ruler = pap_benedetto_xii
+			ruler = pap_eugene_iv
 
 			ruler_term = { character = pap_callisto_ii start_date = 1119.2.2 end_date = 1124.12.13 regnal_number = 2 regnal_name = name_callisto }
 			ruler_term = { character = pap_celestino_iii start_date = 1191.3.30 end_date = 1198.1.8 regnal_number = 3 regnal_name = name_celestine }
@@ -10886,7 +10886,19 @@ countries = {
 			ruler_term = { character = pap_benedict_xi start_date = 1303.10.22 end_date = 1304.7.7 regnal_number = 11 regnal_name = name_benedict }
 			ruler_term = { character = pap_clement_v start_date = 1305.6.5 end_date = 1314.4.20 regnal_number = 5 regnal_name = name_clement }
 			ruler_term = { character = pap_john_xxii start_date = 1316.8.7 end_date = 1334.12.4 regnal_number = 22 regnal_name = name_john	}
-			ruler_term = { character = pap_benedetto_xii start_date = 1334.12.20 regnal_number = 12 regnal_name = name_benedict }
+			ruler_term = { character = pap_benedetto_xii start_date = 1334.12.20 end_date = 1342.04.25 regnal_number = 12 regnal_name = name_benedict }
+			ruler_term = { character = pap_clemente_vi start_date = 1342.04.25 end_date = 1352.12.06 regnal_number = 6 regnal_name = name_clement }
+			ruler_term = { character = pap_innocenzo_vi start_date = 1352.12.18 end_date = 1362.09.12 regnal_number = 6 regnal_name = name_innocent }
+			ruler_term = { character = pap_urban_v start_date = 1362.09.12 end_date = 1370.12.19 regnal_number = 5 regnal_name = name_urban }
+			ruler_term = { character = pap_gregorio_xi start_date = 1370.12.19 end_date = 1378.03.27 regnal_number = 11 regnal_name = name_gregory }
+			ruler_term = { character = pap_urbano_vi start_date = 1378.03.27 end_date = 1389.10.15 regnal_number = 6 regnal_name = name_urban }
+			ruler_term = { character = pap_boniface_ix start_date = 1389.10.15 end_date = 1404.10.01 regnal_number = 9 regnal_name = name_boniface }
+			ruler_term = { character = pap_innocent_vii start_date = 1404.10.01 end_date = 1406.11.06 regnal_number = 7 regnal_name = name_innocent }
+			ruler_term = { character = pap_gregorio_xii start_date = 1406.11.06 end_date = 1415.07.04 regnal_number = 12 regnal_name = name_gregory }
+			ruler_term = { character = pap_martin_v start_date = 1417.11.11 end_date = 1431.02.20 regnal_number = 5 regnal_name = name_martin }
+			ruler_term = { character = pap_eugene_iv start_date = 1431.02.20 regnal_number = 4 regnal_name = name_eugene }
+
+
 
 			regnal_numbers = {
 				name_adrian = 5
@@ -10894,25 +10906,25 @@ countries = {
 				name_alexander = 4
 				name_anastasius = 4
 				name_benedict = 12
-				name_boniface = 8
+				name_boniface = 9
 				name_callisto = 2
 				name_celestine = 5
-				name_clement = 5
+				name_clement = 6
 				name_damasus = 2
-				name_eugene = 3
+				name_eugene = 4
 				name_felix = 4
 				name_formosus = 1
 				name_gelasius = 2
-				name_gregory = 10
+				name_gregory = 12
 				name_honorius = 4
-				name_innocent = 5
+				name_innocent = 7
 				name_john = 22
 				name_julius = 1
 				name_lando = 1
 				name_leon = 9
 				name_lucius = 3
 				name_marinus = 2
-				name_martin = 4
+				name_martin = 5
 				name_nicholas = 4
 				name_paschal = 2
 				name_paul = 1
@@ -10923,7 +10935,7 @@ countries = {
 				name_sixtus = 3
 				name_stephen = 9
 				name_theodore = 2
-				name_urban = 4
+				name_urban = 6
 				name_valentine = 1
 				name_victor = 3
 			}
@@ -12085,7 +12097,7 @@ countries = {
 			type = republic
 			heir_selection = lottery_election
 
-			ruler = ven_francesco_dandolo
+			ruler = ven_francesco_foscari
 
 			ruler_term = { character = ven_domenico_contarini start_date = 1043.1.1 end_date = 1071.1.1 }
 			ruler_term = { character = ven_domenico_morosini start_date = 1148.1.1 end_date = 1156.2.1 }
@@ -12099,7 +12111,21 @@ countries = {
 			ruler_term = { character = ven_pietro_gradenigo start_date = 1289.11.25 end_date = 1311.8.13 }
 			ruler_term = { character = ven_marino_zorzi start_date = 1311.8.23 end_date = 1312.7.3 }
 			ruler_term = { character = ven_giovanni_soranzo start_date = 1312.7.13 end_date = 1328.12.31 }
-			ruler_term = { character = ven_francesco_dandolo start_date = 1329.1.4 }
+			ruler_term = { character = ven_francesco_dandolo start_date = 1329.1.4 end_date = 1339.11.07 }
+			ruler_term = { character = ven_bartolomeo_gradenigo start_date = 1339.11.07 end_date = 1342.12.28 }
+			ruler_term = { character = ven_andrea_dandolo start_date = 1343.01.01 end_date = 1354.09.07 }
+			ruler_term = { character = ven_marino_falier start_date = 1354.09.11 end_date = 1355.04.15 }
+			ruler_term = { character = ven_giovanni_gradenigo start_date = 1355.04.21 end_date = 1356.08.08 }
+			ruler_term = { character = ven_giovanni_dolfin start_date = 1356.08.13 end_date = 1361.07.12 }
+			ruler_term = { character = ven_lorenzo_celsi start_date = 1361.07.16 end_date = 1365.07.18 }
+			ruler_term = { character = ven_marco_cornaro start_date = 1365.07.30 end_date = 1368.01.13 }
+			ruler_term = { character = ven_andrea_contarini start_date = 1368.01.20 end_date = 1382.06.05 }
+			ruler_term = { character = ven_michele_morosini start_date = 1382.06.10 end_date = 1382.10.16 }
+			ruler_term = { character = ven_antonio_venier start_date = 1382.10.20 end_date = 1400.11.23 }
+			ruler_term = { character = ven_michele_steno start_date = 1400.12.01 end_date = 1413.12.26 }
+			ruler_term = { character = ven_tommaso_mocenigo start_date = 1414.01.01 end_date = 1423.04.04 }
+			ruler_term = { character = ven_francesco_foscari start_date = 1423.04.15 }
+			
 
 			laws = {
 				republican_foundation_law = republicanism_policy
@@ -12158,6 +12184,7 @@ countries = {
 		dynasty = sanudo_dynasty
 		dynasty = venier_dynasty
 		dynasty = celsi_dynasty
+		dynasty = foscari_dynasty
 
 		tolerated_cultures = { dalmatian }
 
@@ -14214,8 +14241,8 @@ countries = {
 			ruler_term = { character = nav_charles_ii_evreux start_date = 1349.10.06 end_date = 1387.01.01 regnal_number = 2 }
 			ruler_term = { character = nav_charles_iii_evreux start_date = 1387.01.01 end_date = 1425.09.08 regnal_number = 3 }
 			ruler_term = { 
-				character = nav_blanche_i_evreux start_date = 1425.09.08 end_date = 1441.04.03 regnal_number = 1 
 				character = ara_john_ii_trastamara start_date = 1425.09.08 end_date = 1441.04.03 regnal_number = 2
+				character = nav_blanche_i_evreux start_date = 1425.09.08 end_date = 1441.04.03 regnal_number = 1 
 			}
 			ruler_term = { character = ara_john_ii_trastamara start_date = 1441.04.03 regnal_number = 2 }
 
