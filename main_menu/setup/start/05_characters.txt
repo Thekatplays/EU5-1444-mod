@@ -27414,6 +27414,7 @@ character_db={
 		religion = catholic
 		adm = 47 dip = 57 mil = 74
 		birth_date = 1310.1.1
+		death_date = 1360.01.01 #not finding these guys
 		birth = florence
 		tag = NAP
 	}
@@ -27438,6 +27439,7 @@ character_db={
 		religion = catholic
 		adm = 77 dip = 75 mil = 26
 		birth_date = 1309.1.1 # Unknown
+		death_date = 1360.01.01 #not finding these guys
 		birth = florence
 		father = flo_filippo_albizzi
 		#mother = Contessa Donati
@@ -27451,6 +27453,7 @@ character_db={
 		religion = catholic
 		estate = burghers_estate
 		birth_date = 1311.1.1 # Unknown
+		death_date = 1360.01.01 #not finding these guys
 		birth = florence
 		father = flo_filippo_albizzi
 		#mother = Contessa Donati
@@ -27464,6 +27467,7 @@ character_db={
 		religion = catholic
 		estate = burghers_estate
 		birth_date = 1313.1.1 # Unknown
+		death_date = 1360.01.01 #not finding these guys
 		birth = florence
 		father = flo_filippo_albizzi
 		#mother = Contessa Donati
@@ -29533,6 +29537,7 @@ character_db={
 		estate = nobles_estate
 		adm = 51 dip = 43 mil = 33
 		birth_date = 1301.1.1
+		death_date = 1360.01.01 #not finding these guys
 		birth = lucca
 		father = luc_gualterio_antelminelli
 		dynasty = antelminelli_dynasty
@@ -29560,6 +29565,7 @@ character_db={
 		estate = nobles_estate
 		female = yes
 		birth_date = 1320.1.1
+		death_date = 1360.01.01 #not finding these guys
 		birth = sanlorenzo
 		#father = Bandino di Romena
 		spouse = flo_francesco_antelminelli
@@ -29572,6 +29578,7 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1320.1.1
+		death_date = 1360.01.01 #not finding these guys
 		birth = lucca
 		father = flo_francesco_antelminelli
 		mother = flo_giovanna
@@ -29585,6 +29592,7 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1325.1.1
+		death_date = 1360.01.01 #not finding these guys
 		birth = lucca
 		father = flo_francesco_antelminelli
 		mother = flo_giovanna
@@ -29697,6 +29705,7 @@ character_db={
 		religion = catholic
 		estate = burghers_estate
 		birth_date = 1315.1.1 # Unknown
+		death_date = 1360.01.01 #not finding these guys
 		birth = florence
 		father = brd_gualtiero_bardi # Unknown
 		dynasty = bardi_dynasty
@@ -34330,6 +34339,7 @@ character_db={
 		estate = nobles_estate
 		adm = 40 dip = 25 mil = 67
 		birth_date = 1279.1.1
+		death_date = 1360.01.01 #not finding these guys
 		birth = reggioem
 		father = rgg_niccolo_fogliano
 		mother = ver_caterina_scala
@@ -35239,6 +35249,7 @@ character_db={
 		religion = catholic
 		adm = 60 dip = 59 mil = 70
 		birth_date = 1318.1.1
+		death_date = 1377.01.01
 		birth = florence
 		father = flo_giovenco_medici
 		dynasty = medici_dynasty
@@ -35251,6 +35262,7 @@ character_db={
 		religion = catholic
 		adm = 58 dip = 40 mil = 39
 		birth_date = 1320.1.1
+		death_date = 1346.01.01 #who the fuck is this
 		birth = florence
 		father = flo_giovenco_medici
 		dynasty = medici_dynasty
@@ -35264,6 +35276,7 @@ character_db={
 		religion = catholic
 		adm = 75 dip = 73 mil = 53
 		birth_date = 1294.1.1 # Unknown
+		death_date = 1346.01.01
 		birth = florence
 		father = flo_averardo_medici_ii
 		#mother = Mandina Arrigucci di Fiesole
@@ -35279,17 +35292,19 @@ character_db={
 		estate = burghers_estate
 		female = yes
 		birth_date = 1300.1.1 # Unknown
+		death_date = 1346.01.01
 		birth = florence
 		spouse = flo_salvestro_chiarissimo_medici
 		tag = FLO
 	}
 	
-	flo_averado_bicci_medici = {
+	flo_averado_bicci_medici = { #https://en.wikipedia.org/wiki/Averardo_de%27_Medici
 		first_name = { name = name_everard }# Averardo, known as Bicci
 		culture = tuscan
 		religion = catholic
 		adm = 84 dip = 79 mil = 13
 		birth_date = 1320.1.1
+		death_date = 1363.01.01
 		birth = florence
 		father = flo_salvestro_chiarissimo_medici
 		mother = flo_lisa_donati
@@ -35302,9 +35317,167 @@ character_db={
 		culture = tuscan
 		religion = catholic
 		birth_date = 1322.1.1
+		death_date = 1360.01.01
 		birth = florence
 		father = flo_salvestro_chiarissimo_medici
 		mother = flo_lisa_donati
+		dynasty = medici_dynasty
+		tag = FLO
+	}
+
+	#Averado Line
+
+	flo_giovanni_medici = { #https://en.wikipedia.org/wiki/Giovanni_di_Bicci_de%27_Medici
+		first_name = { name = name_john }
+		culture = tuscan
+		religion = catholic
+		birth_date = 1360.01.01
+		death_date = 1429.02.20
+		birth = florence
+		father = flo_averado_bicci_medici
+		#mother = Jacopa Spini
+		dynasty = medici_dynasty
+		tag = FLO
+	}
+
+	flo_cosimo_medici = { #https://en.wikipedia.org/wiki/Cosimo_de%27_Medici
+		first_name = { name = name_cosmas }
+		culture = tuscan
+		religion = catholic
+		adm = 84 dip = 79 mil = 43
+		birth_date = 1389.09.27
+		birth = florence
+		father = flo_giovanni_medici
+		#mother = Piccarda Bueri
+		spouse = flo_contessina_bardi
+		dynasty = medici_dynasty
+		tag = FLO
+	}
+
+	flo_contessina_bardi = { #https://en.wikipedia.org/wiki/Contessina_de%27_Bardi
+		first_name = { name = name_countess }
+		culture = tuscan
+		religion = catholic
+		adm = 54 dip = 58 mil = 24
+		female = yes
+		birth_date = 1390.01.01
+		birth = florence
+		#father = Alessandro di Sozzo de' Bardi
+		#mother = Camilla Pannocchieschi
+		spouse = flo_cosimo_medici
+		dynasty = bardi_dynasty
+		tag = FLO
+	}
+
+	flo_lorenzo_medici = { #https://en.wikipedia.org/wiki/Lorenzo_the_Elder
+		first_name = { name = name_laurence }
+		culture = tuscan
+		religion = catholic
+		birth_date = 1395.01.01
+		death_date = 1440.09.23
+		birth = florence
+		father = flo_giovanni_medici
+		#mother = Piccarda Bueri
+		#spouse = Ginevra Cavalcanti
+		dynasty = medici_dynasty
+		tag = FLO
+	}
+
+	#Cosimo children
+
+	flo_piero_medici = { #https://en.wikipedia.org/wiki/Piero_di_Cosimo_de%27_Medici
+		first_name = { name = name_peter }
+		nickname = { name = nick_the_gouty }
+		culture = tuscan
+		religion = catholic
+		adm = 63 dip = 67 mil = 35
+		birth_date = 1416.09.19
+		birth = florence
+		father = flo_cosimo_medici
+		mother = flo_contessina_bardi
+		spouse = flo_lucrezia_tornabuoni #married in june of this year
+		dynasty = medici_dynasty
+		tag = FLO
+	}
+
+	flo_lucrezia_tornabuoni = { #https://en.wikipedia.org/wiki/Lucrezia_Tornabuoni
+		first_name = { name = name_lucrece }
+		last_name = Tornabuoni
+		culture = tuscan
+		religion = catholic
+		female = yes
+		adm = 42 dip = 42 mil = 23
+		birth_date = 1427.06.22
+		birth = florence
+		#father = Francesco di Simone Tornabuoni
+		#mother = Nanna Guicciardini or Francesca Pitti
+		spouse = flo_piero_medici
+		tag = FLO
+	}
+
+	flo_carlo_medici = { #https://en.wikipedia.org/wiki/Carlo_de%27_Medici
+		first_name = { name = name_charles }
+		culture = tuscan
+		religion = catholic
+		estate = clergy_estate
+		adm = 42 dip = 73 mil = 23
+		birth_date = 1428.01.01
+		birth = florence
+		father = flo_cosimo_medici
+		#mother = Maddalena (Slave woman)
+		dynasty = medici_dynasty
+		tag = FLO
+		timed_modifier = {
+			modifier = "bastard"
+			start_date = 1428.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	flo_giovanni_cosimo_medici = { #https://en.wikipedia.org/wiki/Giovanni_di_Cosimo_de%27_Medici
+		first_name = { name = name_john }
+		culture = tuscan
+		religion = catholic
+		adm = 45 dip = 67 mil = 32
+		birth_date = 1421.06.03
+		birth = florence
+		father = flo_cosimo_medici
+		mother = flo_contessina_bardi
+		dynasty = medici_dynasty
+		tag = FLO
+	}
+
+	flo_giovanni_piero_medici = {
+		first_name = { name = name_john }
+		culture = tuscan
+		religion = catholic
+		adm = 04 dip = 07 mil = 02
+		birth_date = 1444.01.01
+		birth = florence
+		father = flo_piero_medici
+		#mother = completely unknown
+		dynasty = medici_dynasty
+		tag = FLO
+		timed_modifier = {
+			modifier = "bastard"
+			start_date = 1444.01.01
+			date = 9999.1.1
+			size = 1
+		}
+	}
+
+	#Lorenzo Line
+
+	flo_pierfrancesco_medici = { #https://en.wikipedia.org/wiki/Pierfrancesco_the_Elder
+		first_name = { name = name_peter.name_francis }
+		culture = tuscan
+		religion = catholic
+		adm = 34 dip = 39 mil = 24
+		birth_date = 1430.01.01
+		birth = florence
+		father = flo_lorenzo_medici
+		#mother = Ginevra Cavalcanti
 		dynasty = medici_dynasty
 		tag = FLO
 	}
@@ -35318,6 +35491,7 @@ character_db={
 		religion = catholic
 		estate = burghers_estate
 		birth_date = 1280.1.1 #Unknown
+		death_date = 1360.01.01 #not finding these guys
 		birth = florence
 		artist = writer
 		artist_skill = 0.68
@@ -35333,6 +35507,7 @@ character_db={
 		estate = nobles_estate
 		adm = 29 dip = 33 mil = 22
 		birth_date = 1331.2.16 #Unknown
+		death_date = 1360.01.01 #not finding these guys
 		birth = pistoia
 		tag = FLO
 		child_trait = child_gifted
@@ -38430,6 +38605,7 @@ character_db={
 		estate = nobles_estate
 		adm = 66 dip = 45 mil = 80
 		birth_date = 1295.1.1
+		death_date = 1360.01.01 #not finding these guys
 		birth = gubbio
 		father = gub_cante_gabrielli
 		dynasty = gabrielli_dynasty
