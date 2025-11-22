@@ -4993,6 +4993,18 @@ dynasty_manager = {
 		}
 	}
 
+	bueil_dynasty = { #https://en.wikipedia.org/wiki/Jean_IV_de_Bueil
+		name = { name = bueil_dynasty }
+		home = sancerre
+		dynasty_name_type = location
+		male_names = {
+			name_charles name_ferdinand name_francis name_john name_louis name_peter name_philip
+		}
+		female_names = {
+			name_elizabeth name_joanna name_louise name_mary name_theresa
+		}
+	}
+
 	bournonville_dynasty = { #https://fr.wikipedia.org/wiki/Maison_de_Bournonville
 		name = { name = bournonville_dynasty }
 		home = boulogne_sur_mer

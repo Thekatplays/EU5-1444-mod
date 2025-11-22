@@ -21,13 +21,22 @@ WAL = {
 	religion_definition = orthodox
 }
 
+MOL = {
+	color = map_MOL
+	color2 = rgb { 136 157 23 }
+   culture_definition = moldovan
+   religion_definition = orthodox
+}
+
 BIA = {
 	color = rgb { 36  157  123 }
+	is_historic = yes
    culture_definition = moldovan
    religion_definition = orthodox
 }
 
 BLD = {
+	is_historic = yes
 	color = rgb { 236  57  123 }
    culture_definition = moldovan
    religion_definition = orthodox
@@ -35,30 +44,35 @@ BLD = {
 
 HTN = {
 	color = rgb { 236  57  223 }
+	is_historic = yes
    culture_definition = moldovan
    religion_definition = orthodox
 }
 
 HSC = {
 	color = rgb { 136  57  223 }
+	is_historic = yes
    culture_definition = moldovan
    religion_definition = orthodox
 }
 
 IAS = {
 	color = rgb { 36  57  123 }
+	is_historic = yes
    culture_definition = moldovan
    religion_definition = orthodox
 }
 
 SRC = {
 	color = rgb { 136  157  223 }
+	is_historic = yes
    culture_definition = moldovan
    religion_definition = orthodox
 }
 
 SSI = {
 	color = rgb { 36  57  223 }
+	is_historic = yes
    culture_definition = moldovan
    religion_definition = orthodox
 }

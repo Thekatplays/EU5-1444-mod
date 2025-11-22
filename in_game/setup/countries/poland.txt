@@ -41,7 +41,7 @@ RAW = {
 	religion_definition = catholic
 }
 
-CZK = {
+DMA = {
 	color = rgb { 223 165 189 }
 
 	culture_definition = mazovian
@@ -140,6 +140,7 @@ NRK = {
 
 DRU = {
 	color = rgb { 202 65 87 }
+	is_historic = yes
 
 	culture_definition = polatskian_culture
 	religion_definition = orthodox

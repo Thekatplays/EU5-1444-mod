@@ -154,6 +154,14 @@ MTR = {
 
 }
 
+HER = {
+	#color = map_bosnian
+	color = rgb { 72 113 160 } #new color
+
+	culture_definition = bosnian
+	religion_definition = bosnian_church
+}
+
 BOS = {
 	color = map_bosnian
 	color2 = rgb { 163 165 77 } #new color

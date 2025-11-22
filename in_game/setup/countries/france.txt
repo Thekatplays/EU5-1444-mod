@@ -6,6 +6,14 @@
 	religion_definition = catholic
 }
 
+LVL = {
+	#color = map_BRI
+	color = rgb { 120 46 193 }
+
+	culture_definition = angevin
+	religion_definition = catholic
+}
+
 
 FRA = {
 	color = map_FRA
@@ -78,6 +86,13 @@ SAN = {
 AMG = {
 	#color = map_FRA
 	color = rgb { 187 206 247 }
+
+	culture_definition = gascon
+	religion_definition = catholic
+}
+
+ABR = {
+	color = rgb { 203 90 90 }
 
 	culture_definition = gascon
 	religion_definition = catholic

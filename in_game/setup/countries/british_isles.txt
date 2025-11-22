@@ -40,6 +40,8 @@ SBL = {
 	unit_color1 = red
 	unit_color2 = blue
 
+	is_historic = yes
+
 	culture_definition = scottish
 	religion_definition = catholic
 }

@@ -9259,7 +9259,7 @@ character_db={
 		tag = NAV
 	}
 
-	nav_philip_evreux = {	
+	nav_philip_charles_evreux = {	
 		first_name = { name = name_philip }
 		culture = french
 		religion = catholic
@@ -14914,6 +14914,7 @@ character_db={
 		estate = nobles_estate
 		adm = 33 dip = 66 mil = 50
 		birth_date = 1289.9.1
+		death_date = 1358.01.01
 		birth = labrit
 		father = aqn_amanieu_vii_albret
 		#mother = Rose de Bourg
@@ -14921,12 +14922,13 @@ character_db={
 		tag = AQN
 	}
 	
-	aqn_amanieu_albret = {
-		first_name = { name = name_emmanuel }
+	aqn_arnold_amanieu_albret = {
+		first_name = { name = name_arnold.name_emmanuel }
 		culture = gascon
 		religion = catholic
 		estate = nobles_estate
-		birth_date = 1331.1.1
+		birth_date = 1331.1.1 #this is wrong?
+		death_date = 1401.01.01
 		birth = labrit
 		father = aqn_bernard_ezi_v_albret
 		mother = aqn_mathe_armagnac
@@ -14942,6 +14944,7 @@ character_db={
 		adm = 3 dip = 3 mil = 1
 		female = yes
 		birth_date = 1333.1.1
+		death_date = 1401.01.01 #no idea when these died
 		birth = labrit
 		father = aqn_bernard_ezi_v_albret
 		mother = aqn_mathe_armagnac
@@ -14956,6 +14959,7 @@ character_db={
 		estate = nobles_estate
 		female = yes
 		birth_date = 1334.1.1
+		death_date = 1401.01.01 #no idea when these died
 		birth = labrit
 		father = aqn_bernard_ezi_v_albret
 		mother = aqn_mathe_armagnac
@@ -14969,6 +14973,7 @@ character_db={
 		religion = catholic
 		estate = nobles_estate
 		birth_date = 1336.1.1
+		death_date = 1401.01.01 #no idea when these died
 		birth = labrit
 		father = aqn_bernard_ezi_v_albret
 		mother = aqn_mathe_armagnac
@@ -14983,6 +14988,7 @@ character_db={
 		estate = nobles_estate
 		female = yes
 		birth_date = 1308.1.1 # Married 1320
+		death_date = 1401.01.01 #no idea when these died
 		birth = labrit
 		father = aqn_amanieu_vii_albret
 		#mother = Rose de Bourg
@@ -14990,6 +14996,174 @@ character_db={
 		dynasty = albret_dynasty
 		tag = CLT
 	}
+
+	aqn_charles_i_albret = { #https://en.wikipedia.org/wiki/Charles_I_d%27Albret
+		first_name = { name = name_charles }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1368.12.01
+		death_date = 1415.10.25 #Agincourt
+		birth = labrit
+		father = aqn_arnold_amanieu_albret
+		#mother = margaret of bourbon https://en.wikipedia.org/wiki/Margaret_of_Bourbon,_Lady_of_Albret
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_jeanne_charles_albret = {
+		first_name = { name = name_joanna }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1403.01.01
+		death_date = 1433.01.01
+		female = yes
+		birth = labrit
+		father = aqn_charles_i_albret
+		#mother = margaret of bourbon https://en.wikipedia.org/wiki/Margaret_of_Bourbon,_Lady_of_Albret
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_charles_ii_albret = { #https://en.wikipedia.org/wiki/Charles_II_d%27Albret
+		first_name = { name = name_charles }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1407.01.01
+		birth = labrit
+		father = aqn_charles_i_albret
+		#mother = margaret of bourbon https://en.wikipedia.org/wiki/Margaret_of_Bourbon,_Lady_of_Albret
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_guillaume_albret = {
+		first_name = { name = name_william }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1408.01.01 #unknown
+		death_date = 1429.02.12 #Battle of Herrings
+		birth = labrit
+		father = aqn_charles_i_albret
+		#mother = margaret of bourbon https://en.wikipedia.org/wiki/Margaret_of_Bourbon,_Lady_of_Albret
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_jean_i_albret = { #https://en.wikipedia.org/wiki/Jean_I_of_Albret
+		first_name = { name = name_john }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1420.01.01 #unknown
+		birth = labrit
+		father = aqn_charles_ii_albret
+		#mother = anne of armagnac https://en.wikipedia.org/wiki/Anne_of_Armagnac
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_louis_albret = { #https://en.wikipedia.org/wiki/Louis_d%27Albret
+		first_name = { name = name_louis }
+		culture = gascon
+		religion = catholic
+		estate = clergy_estate
+		birth_date = 1422.01.01 #unknown
+		birth = labrit
+		father = aqn_charles_ii_albret
+		#mother = anne of armagnac https://en.wikipedia.org/wiki/Anne_of_Armagnac
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_arnaud_amanieu_albret = {
+		first_name = { name = name_arnold.name_emmanuel }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1424.01.01 #unknown
+		birth = labrit
+		father = aqn_charles_ii_albret
+		#mother = anne of armagnac https://en.wikipedia.org/wiki/Anne_of_Armagnac
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_charles_albret = {
+		first_name = { name = name_charles }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1425.01.01 #unknown
+		birth = labrit
+		father = aqn_charles_ii_albret
+		#mother = anne of armagnac https://en.wikipedia.org/wiki/Anne_of_Armagnac
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_gilles_albret = {
+		first_name = { name = name_giles }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1426.01.01 #unknown
+		birth = labrit
+		father = aqn_charles_ii_albret
+		#mother = anne of armagnac https://en.wikipedia.org/wiki/Anne_of_Armagnac
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_marie_albret = {
+		first_name = { name = name_mary }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1427.01.01 #unknown
+		female = yes
+		birth = labrit
+		father = aqn_charles_ii_albret
+		#mother = anne of armagnac https://en.wikipedia.org/wiki/Anne_of_Armagnac
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	aqn_jeanne_brittany_albret = {
+		first_name = { name = name_joanna }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1426.01.01 #unknown
+		death_date = 1444.01.01 #unknown but before game start
+		birth = labrit
+		father = aqn_charles_ii_albret
+		#mother = anne of armagnac https://en.wikipedia.org/wiki/Anne_of_Armagnac
+		#spouse = arthur III https://en.wikipedia.org/wiki/Arthur_III,_Duke_of_Brittany
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	#jean children
+
+	aqn_alain_i_albret = { #https://en.wikipedia.org/wiki/Alain_I_of_Albret
+		first_name = { name = name_alan }
+		nickname = { name = nick_the_great }
+		culture = gascon
+		religion = catholic
+		estate = nobles_estate
+		birth_date = 1440.01.01 #unknown
+		birth = labrit
+		father = aqn_jean_i_albret
+		#mother = catherine de rohan
+		dynasty = albret_dynasty
+		tag = ABR
+	}
+
+	
 
 	# HOUSE OF ALSACE (Dukes of Lorraine)
 
@@ -15974,9 +16148,64 @@ character_db={
  		religion = catholic
 		estate = nobles_estate
  		birth_date = 1323.1.1 # Unknown
+		death_date = 1368.01.01
  		birth = mirande
 		father = ast_amanieu_astarac
 		mother = mfa_cecilia_comminges
+ 		dynasty = astarac_dynasty
+ 		tag = AST
+ 	}
+
+	ast_john_i_astarac = {
+ 		first_name = { name = name_john }
+ 		culture = gascon
+ 		religion = catholic
+		estate = nobles_estate
+ 		birth_date = 1341.01.01 # Unknown
+		death_date = 1398.01.01 # Unknown
+ 		birth = mirande
+		father = ast_centule_iv_astarac
+		#mother = who knows
+ 		dynasty = astarac_dynasty
+ 		tag = AST
+ 	}
+
+	ast_john_ii_astarac = {
+ 		first_name = { name = name_john }
+ 		culture = gascon
+ 		religion = catholic
+		estate = nobles_estate
+ 		birth_date = 1360.01.01 # Unknown
+		death_date = 1410.01.01 # Unknown
+ 		birth = mirande
+		father = ast_john_i_astarac
+		#mother = who knows
+ 		dynasty = astarac_dynasty
+ 		tag = AST
+ 	}
+
+	ast_john_iii_astarac = {
+ 		first_name = { name = name_john }
+ 		culture = gascon
+ 		religion = catholic
+		estate = nobles_estate
+ 		birth_date = 1385.01.01 # Unknown
+ 		birth = mirande
+		father = ast_john_ii_astarac
+		#mother = who knows
+ 		dynasty = astarac_dynasty
+ 		tag = AST
+ 	}
+
+	ast_john_iv_astarac = {
+ 		first_name = { name = name_john }
+ 		culture = gascon
+ 		religion = catholic
+		estate = nobles_estate
+ 		birth_date = 1435.01.01 # Unknown
+ 		birth = mirande
+		father = ast_john_iii_astarac
+		#mother = who knows
  		dynasty = astarac_dynasty
  		tag = AST
  	}
@@ -15993,6 +16222,35 @@ character_db={
 		#mother = Longebrune
  		dynasty = astarac_dynasty
  		tag = AST
+ 	}
+
+	# HOUSE OF BUEIL (Counts of Sancerre)
+
+	san_jean_iv_bueil = { #https://en.wikipedia.org/wiki/Jean_IV_de_Bueil
+ 		first_name = { name = name_john }
+ 		culture = berrichon
+ 		religion = catholic
+		estate = nobles_estate
+ 		birth_date = 1361.01.01 #unknown
+		death_date = 1415.10.25 #agincourt
+ 		birth = sancerre
+		#father = Jean iii bueil
+		#mother = Longebrune
+ 		dynasty = bueil_dynasty
+ 		tag = SAN
+ 	}
+
+	san_jean_v_bueil = { #https://en.wikipedia.org/wiki/Jean_V_de_Bueil
+ 		first_name = { name = name_john }
+ 		culture = berrichon
+ 		religion = catholic
+		estate = nobles_estate
+ 		birth_date = 1406.01.01 #unknown
+ 		birth = sancerre
+		father = san_jean_iv_bueil
+		#mother = Longebrune
+ 		dynasty = bueil_dynasty
+ 		tag = SAN
  	}
 
 	# HOUSE OF AUVERGNE (Counts of Auvergne)
@@ -27085,7 +27343,7 @@ character_db={
  		religion = catholic
 		estate = clergy_estate
  		adm = 45 dip = 39 mil = 39
- 		tag = SCL
+ 		tag = BUR
  	}
 
 	ars_gerard_dainville = {
@@ -44497,7 +44755,7 @@ adm = 31 dip = 34 mil = 24
 		religion = catholic
 		estate = clergy_estate
 		birth_date = 1405.10.18
-		birth = montelcino
+		birth = montalcino
 		tag = SIE
 		ruler_trait = zealot
 	}
@@ -44546,7 +44804,7 @@ adm = 31 dip = 34 mil = 24
 		religion = catholic
 		estate = clergy_estate
 		birth_date = 1431.01.01
-		birth = xativa
+		birth = jativa
 		tag = ARA
 		child_trait = child_shrewd
 		ruler_trait = zealot
@@ -90121,7 +90379,7 @@ adm = 31 dip = 34 mil = 24
 		birth = novosil
 		father = kie_mikhail_ii_vsevolodovich_rurikovich 
 		dynasty = rurikovich_dynasty
-		tag = NSL
+		tag = ODY
 	}
 
 	nsl_alexander_semyonovich_rurikovich = {	
@@ -90134,7 +90392,7 @@ adm = 31 dip = 34 mil = 24
 		birth = novosil
 		father = nsl_semyon_mikhailovich_rurikovich 
 		dynasty = rurikovich_dynasty
-		tag = NSL
+		tag = ODY
 	}
 	
 	nsl_semyon_alexandrovich_rurikovich = {	#Ruler	Семён Александрович
@@ -90146,7 +90404,7 @@ adm = 31 dip = 34 mil = 24
 		birth = novosil
 		father = nsl_alexander_semyonovich_rurikovich 
 		dynasty = rurikovich_dynasty
-		tag = NSL
+		tag = ODY
 	}
 
 	#Mstislavl
@@ -92681,7 +92939,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1262.6.23
 		dynasty = piast_dynasty
 		father = maz_konrad_i_piast
-		tag = CZK
+		tag = DMA
 	}
 	czk_boleslaw_ii_piast = { #Father of Ruler
 		first_name = { name = name_boleslav }
@@ -92692,7 +92950,7 @@ adm = 31 dip = 34 mil = 24
 		death_date = 1313.4.20
 		dynasty = piast_dynasty
 		father = czk_siemowit_i_piast
-		tag = CZK
+		tag = DMA
 	}
 	czk_trojden_i_piast = { #Ruler
 		first_name = { name = Trojden }
@@ -92702,7 +92960,7 @@ adm = 31 dip = 34 mil = 24
 		birth = warsaw
 		dynasty = piast_dynasty
 		father = czk_boleslaw_ii_piast
-		tag = CZK
+		tag = DMA
 	}
 
 	czk_maria_rurikovich = { #Spouse of Ruler
@@ -92716,7 +92974,7 @@ adm = 31 dip = 34 mil = 24
 		dynasty = rurikovich_dynasty
 		father = vol_yuri_i_rurikovich
 		mother = vol_euphemia_kuyavia
-		tag = CZK
+		tag = DMA
 	}
 
 	czk_siemowit_iii_piast = { #Son of Ruler
@@ -92728,7 +92986,7 @@ adm = 31 dip = 34 mil = 24
 		dynasty = piast_dynasty
 		father = czk_trojden_i_piast
 		mother = czk_maria_rurikovich
-		tag = CZK
+		tag = DMA
 	}
 
 	czk_kazimierz_iii_piast = { #Son of Ruler
@@ -92740,7 +92998,7 @@ adm = 31 dip = 34 mil = 24
 		dynasty = piast_dynasty
 		father = czk_trojden_i_piast
 		mother = czk_maria_rurikovich
-		tag = CZK
+		tag = DMA
 	}
 
 	#Plock

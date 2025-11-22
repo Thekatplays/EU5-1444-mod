@@ -2288,7 +2288,7 @@ building_manager = {
 	monastery	= { tag = BRE level = 1	location = zeven }
 	#monastery	= { tag = AUL level = 1	location = la_louviere }
 	monastery 	= { tag = MOU level = 1 location = mouzon }
-	monastery 	= { tag = SCL level = 1 location = saint_claude }
+	monastery 	= { tag = BUR level = 1 location = saint_claude }
 
 	#Western Africa
 	madrasa = { tag = MAL level = 1	location = timbuktu }
@@ -3650,8 +3650,8 @@ building_manager = {
 	stockade = { tag = GLM level = 1 location = kologriv }
 	stockade = { tag = BRY level = 1 location = boldyzh }
 	stockade = { tag = RYL level = 1 location = rylsk }
-	stockade = { tag = NSL level = 1 location = novosil }
-	stockade = { tag = NSL level = 1 location = belyov }
+	stockade = { tag = ODY level = 1 location = novosil }
+	stockade = { tag = ODY level = 1 location = belyov }
 	stockade = { tag = TRS level = 1 location = tarusa }
 	stockade = { tag = RYA level = 1 location = ryazan }
 	stockade = { tag = RYA level = 1 location = perevitska }

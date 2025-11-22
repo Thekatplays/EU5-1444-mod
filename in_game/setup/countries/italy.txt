@@ -129,6 +129,7 @@ religion_definition = catholic
 
 CHX	= { #chieri
 color = rgb { 187 56 177 }
+is_historic = yes
 
 culture_definition = piedmontese
 religion_definition = catholic
@@ -517,6 +518,7 @@ religion_definition = catholic
 
 SCL	= { #Saint-Claude Abbey
 color = rgb { 200 196 50 }
+is_historic = yes
 
 culture_definition = arpitan
 religion_definition = catholic

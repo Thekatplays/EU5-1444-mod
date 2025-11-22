@@ -5,8 +5,25 @@
 	culture_definition = mongolian_culture
 	religion_definition = sunni
 
-	description_category = military
-	difficulty = 4
+	is_historic = yes
+	# description_category = military
+	# difficulty = 4
+}
+
+GRH = {
+	#color = map_golden_horde
+	color = rgb { 193 179 127 }
+
+	culture_definition = astrakhani
+	religion_definition = sunni
+}
+
+KZN = {
+	color = map_KAZ
+	color2 = rgb { 97 102 135 }
+
+	culture_definition = kazani
+	religion_definition = sunni
 }
 
 CRI = {
