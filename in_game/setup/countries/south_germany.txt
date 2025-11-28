@@ -70,6 +70,13 @@ LBV = {
 	religion_definition = catholic
 }
 
+ING = {
+	color = rgb { 67 163 215 }
+	
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+}
+
 SLZ = {
 	color = rgb { 129 109 9 }
 	
@@ -572,6 +579,7 @@ TGG = {
 
 PSZ = {
     color = rgb { 210 150 90 }
+	is_historic = yes
     culture_definition = rhine_franconian
     religion_definition = catholic
 }
@@ -669,6 +677,7 @@ THD = {
 
 ELL = {
     color = rgb { 200 150 90 }
+	is_historic = yes
     culture_definition = swabian
     religion_definition = catholic
 }
@@ -699,7 +708,14 @@ KIR = {
 
 NEL = {
     color = rgb { 180 140 190 }
+	is_historic = yes
     culture_definition = swabian
+    religion_definition = catholic
+}
+
+SCH = {
+    color = rgb { 105 74 63 }
+    culture_definition = high_alemannic
     religion_definition = catholic
 }
 

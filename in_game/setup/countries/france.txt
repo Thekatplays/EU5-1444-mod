@@ -529,7 +529,7 @@ MDM = {
 #Ferrette
 FRT = {
 	color = rgb { 245 14 36 }
-
+	is_historical = yes
 	culture_definition = rhine_alemannic
 	religion_definition = catholic
 }

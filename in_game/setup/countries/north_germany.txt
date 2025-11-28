@@ -92,7 +92,7 @@ MDN = {
 
 NSA = {
 	color = rgb { 91 83 203 }
-	
+	is_historic = yes
 	culture_definition = rhine_franconian
 	religion_definition = catholic
 	is_historic = yes
@@ -100,14 +100,14 @@ NSA = {
 
 NSH = {
 	color = rgb { 91 183 203 }
-	
+	is_historic = yes
 	culture_definition = moselle_franconian
 	religion_definition = catholic
 }
 
 NSS = {
 	color = rgb { 191 83 203 }
-	
+	is_historic = yes
 	culture_definition = moselle_franconian
 	religion_definition = catholic
 }
@@ -198,6 +198,14 @@ PLN = {
 
 MEI = {
 	color = rgb { 58 174 61 }
+
+	culture_definition = saxon
+	religion_definition = catholic
+}
+
+SAX = {
+	color = map_SAX
+	color2 = rgb { 255 18 71 }
 
 	culture_definition = saxon
 	religion_definition = catholic
@@ -547,7 +555,7 @@ LNN = {
 
 SPO = {
 	color = rgb { 215 66 74 }
-
+	is_historic = yes
 	culture_definition = rhine_franconian
 	religion_definition = catholic
 }
@@ -577,6 +585,8 @@ DUN = {
 
 APR = {
 	color = rgb { 200 211 22 }
+
+	is_historic = yes
 
 	culture_definition = moselle_franconian
 	religion_definition = catholic
@@ -853,6 +863,7 @@ NSW = {
 
 NSI = {
     color = rgb { 220 180 90 }
+	is_historic = yes
     culture_definition = rhine_franconian
     religion_definition = catholic
 }
@@ -877,6 +888,12 @@ EVS = {
 
 JEV = {
     color = rgb { 140 110 100 }
+    culture_definition = frisian
+    religion_definition = catholic
+}
+
+EFR = {
+    color = rgb { 190 32 16 } #Same as EU4
     culture_definition = frisian
     religion_definition = catholic
 }
